@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: #1F1F1F;
+    display: flex;
+}
+.pain{
+    width: 65%;
+   
+    margin: auto;
+    background: #25256b;
+}
+.playerHeading{
+    color: white;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    /* box-shadow: 0px 0px 10px red; */
+    
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.give{
+    color: white;
+    margin-top: 80px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.error{
+    color: white;
+    
+    
+    text-align: center;
+}
+.playerOneInput{
+    text-align: center;
+    margin: auto;
+    display: flex;
+   width: 300px;
+   height: 50px;
+   border: 0;
+   font-size: 30px;
+   margin-bottom: 40px;
+   margin-top: 10px;
+   outline: 0;
+    
+}
+.playerOneButton{
+    display: block;
+    margin: auto;
+    padding: 10px 60px;
+    background: #7373FF;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 30px;
+
+}
+/* player two */
+.chance,.playerTwoInput,.playerTwoButton{
+    display: none;
+}
